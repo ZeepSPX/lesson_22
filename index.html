@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_22</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<main class="page">
+			<section class="page__test">
+				<div class="page__container">
+					<article class="page__text-synt">
+						<h2 class="title">Відео Синтаксис </h2>
+						<div class="page__task">
+							Варіант 3: викликає помлку синтаксису, наступна інструкція не може виконатися так як
+							компілятор
+							не
+							може зрозуміти що на цій строці робить ідентифікатор console, так як немає крапки з комою що
+							довзоляє відділити їх одну від одної;
+						</div>
+						<div class="page__task">
+							Варіант 4: не закриті лапки, автоматично повідомляють компілятору що далі також ідуть якісь
+							значення/вирази.
+						</div>
+						<div class="page__task">
+							Всі інші написані або з крапкою з комою або на окремах рядка, що довзоляє компілятору
+							логічно їх
+							розділити на дві окермі інструкції.
+						</div>
+					</article>
+					<article class="page__text-let">
+						<h3 class="title">Відео Зміні</h3>
+						<div class="page__task">
+							Завдання 1: Зміна для кольору очей користувача
+							userColorEyes
+						</div>
+						<div class="page__task">
+							Завдання 2:
+							let user;
+							let userName = `Василь`;
+							user = userName;
+							console.log(user);
+						</div>
+						<div class="page__task">
+							Завдання 3:
+						</div>
+						<div class="page__task">
+							1 помилка в наданні зміної, якщо і писати в рядок зміні то тільки так
+							let user = `Василь`, age = 36; , тобто let тільки один раз і в кінці ; ;
+						</div>
+						<div class="page__task">
+							2 це не помилка, myage, але такиим чинном код стає менш читабельним, що в майбутньому може
+							викликати
+							помилки, тому треба завжди керуватися правилимо lowerCamelCase, myage => myAge;
+						</div>
+						<div class="page__task">
+							3 константа це вже завідомо відоме число;
+						</div>
+						<div class="page__task">
+							В останніх двух все виконано правильно.
+						</div>
+					</article>
+					<article class="page__type-data">
+						<h3 class="title">Відео Типи даних</h3>
+						<div class="page__task">
+							Завдання 1 помилка в наданні зміної, зворотні повідомляють компілятору що тут є ще зміна яку
+							треба
+							задіяти, а саме let userInfo = "Фрілансер ${userAge}"; => let userInfo = `Фрілансер
+							${userAge}`;
+							;
+						</div>
+						<div class="page__task">
+							Завдання 2 повернеться значення Infinity, а не NaN ;
+						</div>
+						<div class="page__task">
+							Завдання 3 повернеться значення undefined, а не Null ;
+						</div>
+					</article>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
